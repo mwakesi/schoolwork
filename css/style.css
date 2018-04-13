@@ -4,7 +4,7 @@
 }
 body{
     font-family: Helvetica, Arial, sans-serif;
-    background-color: darkgray;
+    background-color: #333;
     color: #fff;
 }
 /* container style */
@@ -64,9 +64,9 @@ header li{
 }
 
 #intro h1{
-    margin-top: 15px;
+    margin-top: 5px;
     color: #fbc924;
-    font-size: 55px;
+    font-size: 35px;
     padding: 8px;
 }
 #intro p{
@@ -104,7 +104,7 @@ header li{
 
 #content_covered h3{
     color: #000;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 15px;
     text-align: center;    
 }
@@ -174,13 +174,15 @@ input[type=submit]:hover{
 }
 
 .container_gradient {
-    background-color: rgba(0,0,0,0.7);
+    width: 50%;
+    margin: 0;
+    background-color: rgba(0,0,0,0.5);
     height: 350px;
 
 }
 
 footer {
-    background-color: darkgray;
+    background-color: #333;
     padding: 8px;
     text-align: center;
     color: #f4f2f2;
